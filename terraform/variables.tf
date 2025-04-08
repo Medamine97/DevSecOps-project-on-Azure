@@ -9,3 +9,9 @@ variable "location" {
   type        = string
   default     = "eastus"
 }
+
+variable "aks_cluster_name" {
+  description = "The name of the Azure Kubernetes Service (AKS) cluster."
+  type        = string
+  default     = "dev-aks-cluster"
+}
