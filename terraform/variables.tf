@@ -15,3 +15,9 @@ variable "aks_cluster_name" {
   type        = string
   default     = "dev-aks-cluster"
 }
+
+variable "acr_name" {
+  description = "The name to use for the Azure Container Registry (ACR)."
+  type        = string
+  default     = "devacrregistry"
+}
