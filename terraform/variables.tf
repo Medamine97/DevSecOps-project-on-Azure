@@ -1,3 +1,13 @@
+variable "tenant_id" {
+  description = "Azure Active Directory Tenant ID"
+  type        = string
+}
+
+variable "subscription_id" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+
 variable "resource_group_name" {
   description = "The name of the resource group in which all resources will be created."
   type        = string
