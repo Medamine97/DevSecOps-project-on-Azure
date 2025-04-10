@@ -11,7 +11,6 @@ variable "subscription_id" {
 variable "resource_group_name" {
   description = "The name of the resource group in which all resources will be created."
   type        = string
-  default     = "dev-aks-rg"
 }
 
 variable "location" {
@@ -29,5 +28,4 @@ variable "aks_cluster_name" {
 variable "acr_name" {
   description = "The name to use for the Azure Container Registry (ACR)."
   type        = string
-  default     = "devacrregistry"
 }
