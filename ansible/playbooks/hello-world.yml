@@ -1,0 +1,8 @@
+---
+- name: Hello World Playbook
+  hosts: all
+  become: false  # Set to true if you need sudo
+  tasks:
+    - name: Print Hello World
+      ansible.builtin.debug:
+        msg: "Hello, World!"
